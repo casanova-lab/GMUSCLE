@@ -68,7 +68,7 @@ Parameter | Type | Description | Default
 - *if paired-end, the fastq files have to be suffixed with R1/R2*
 
 ## References
-- *Zhang P#, Yang R#, Abel A, Casanova J-L.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
+- *Zhang P, Yang R, Abel A, Casanova J-L.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
 a computational approach to analyze CRISPR-edited single cell clones. (2022)
 
 ## Contact
