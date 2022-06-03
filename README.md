@@ -52,16 +52,16 @@ python GMUSCLE.py \
 ### Parameters
 Parameter | Type | Description | Default
 ----------|------|-------------|--------------
-*-dir*|str|directory of the fastq files|N.A.
-*-sample*|filename|file of sample list|N.A.
-*-readtype*|str|single-end (se) or paired-end (pe)|se
-*-genome*|filename|file of reference genome|N.A.
-*-chr*|str|chromosome (consistent format with the reference genome)|N.A.
-*-start*|int|start position of the sequencing region|N.A.
-*-end*|int|end position of the sequencing region|N.A.
-*-count_cutoff*|int|read count cutoff|30
-*-ratio_cutoff*|float|frequency cutoff for being a major genotype|0.01(1%)
-*-prefix*|str|prefix for the output files|N.A.
+*--dir*|str|directory of the fastq files|N.A.
+*--sample*|filename|file of sample list|N.A.
+*--readtype*|str|single-end (se) or paired-end (pe)|se
+*--genome*|filename|file of reference genome|N.A.
+*--chr*|str|chromosome (consistent format with the reference genome)|N.A.
+*--start*|int|start position of the sequencing region|N.A.
+*--end*|int|end position of the sequencing region|N.A.
+*--count_cutoff*|int|read count cutoff|30
+*--ratio_cutoff*|float|frequency cutoff for being a major genotype|0.01(1%)
+*--prefix*|str|prefix for the output files|N.A.
 
 *Notes:*
 - *if sample file and genome file are not in the same folder with GMUSCLE.py, include their path in the command*
