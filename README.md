@@ -60,7 +60,7 @@ Parameter | Type | Description | Default
 *--start*|int|start position of the sequencing region|N.A.
 *--end*|int|end position of the sequencing region|N.A.
 *--count_cutoff*|int|read count cutoff|30
-*--ratio_cutoff*|float|frequency cutoff for being a major genotype|0.01(1%)
+*--ratio_cutoff*|float|frequency cutoff for being a major genotype|0.01 (1%)
 *--prefix*|str|prefix for the output files|N.A.
 
 *Notes:*
