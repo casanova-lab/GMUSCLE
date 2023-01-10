@@ -4,7 +4,7 @@ Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing
 ## Introduction
 - CRISPR/Cas9 gene editing is widely used to create genetic modified cells. The genetic editing results in cellular heterogeneity, allelic diversity, and  randomness of de novo sequences, which constitute a major challenge in genotyping CRISPR/Cas9-edited cells. 
 - We introduced a streamlined and cost-effective protocol along with the computational tool GMUSCLE, to sequence and genotype the products of CRISPR/Cas9 gene editing with great depth, high accuracy, high efficiency, and handy utilization.
-- GMUSCLE enables the quantitative identification and qualitative visualization of the major genotypes from demultiplexed sequencing data of CRISPR/Cas9-edited cells.
+- GMUSCLE enables the quantitative and qualitative identification of the major genotypes from sequencing data of CRISPR/Cas9-edited cells.
 
 ## Usage
 ### Dependency and quick installation
@@ -22,14 +22,15 @@ export PATH=$PATH:$HOME/ncbi-xxx/bin
 ```
 
 ### Input
-- demutiplexed fastq/fastq.gz files for all samples
+- fastq/fastq.gz files for all samples (demutiplexed)
 - reference genome
 - genomic region of interest (CHR, START, END)
 
 ### Output
-- a summary of read counts and major genotypes for each sample
-- a plot of major genotypes (deletions/insertions of different sizes) and their frequencies on genomic positions, for each sample
-- a matrix of major genotypes and their frequencies for all samples
+- a summary file of the read counts and the major genotypes (in VCF format) detected in each sample
+- a plot of major genotypes (deletions/insertions (indels) of different sizes, at different genomic positions) and their proportions in each sample
+- a sequence alignment of all major genotypes against the wild-type sequence, at nucleotide level, for all samples
+- a matrix of all major genotypes and their proportions in all samples
 
 ### Example
 We provided four example fastq files from CRISPR-editing experiments that targeted the 3'-end of exon 5 of *IFNAR1*. The genomic region was chr21-34715869-34716164 (GRCh37).
@@ -65,11 +66,11 @@ Parameter | Type | Description | Default
 
 *Notes:*
 - *if sample file and genome file are not in the same folder with GMUSCLE.py, include their path in the command*
-- *if paired-end, the fastq files have to be suffixed with R1/R2*
+- *if paired-end, the fastq files have to be suffixed with _R1/R2*
 
 ## References
 - *Zhang P, Yang R, Abel A, Casanova J-L.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
-a computational approach to analyze CRISPR-edited single cell clones. (2022)
+an experimental and computational approach to analyze CRISPR-edited cells. (2022)
 
 ## Contact
 > **Developer:** Peng Zhang, Ph.D.
