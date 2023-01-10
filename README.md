@@ -68,6 +68,13 @@ Parameter | Type | Description | Default
 - *if sample file and genome file are not in the same folder with GMUSCLE.py, include their path in the command*
 - *if paired-end, the fastq files have to be suffixed with _R1/R2*
 
+## Extended Utility
+Besides the multiplexed-sequencing ability of this protocol, GMUSCLE software alone is also versatile. GMUSCLE is able to analyze the sequencing data:
+- (1) from bulk cell populations in organs/tissues, for which the users just need to provide the path of the large fastq files to GMUSCLE; 
+- (2) from cells that were treated with multiple sgRNA to edit multiple target sites, for which the users just need to run GMUSCLE command multiple times with different genomic positions of the target sites; 
+- (3) from different experimental gene-editing protocols/systems, as GMUSCLE only needs sequencing data, reference genome, and genomic position from the users for its analysis;
+- (4) from gene-edited products in other organisms, for which the users only need to provide the organism’s reference genome to GMUSCLE.
+
 ## References
 - *Zhang P, Yang R, Abel A, Casanova J-L.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
 an experimental and computational approach to analyze CRISPR-edited cells. (2022)
