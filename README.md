@@ -34,7 +34,7 @@ export PATH=$PATH:$HOME/ncbi-xxx/bin
 - a matrix of all major genotypes and their proportions in all samples
 
 ### Example
-We provided four example fastq files from CRISPR-editing experiments that targeted the 3'-end of exon 5 of *IFNAR1*. The genomic region was chr21-34715869-34716164 (GRCh37).
+We provided four example fastq files from CRISPR-editing experiments that targeted the 3'-end of exon 5 of *IFNAR1*. The targeted genomic region was chr21-34715869-34716164 (GRCh37).
 
 ### Command
 ```
