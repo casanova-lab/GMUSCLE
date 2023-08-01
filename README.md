@@ -16,7 +16,7 @@ pip install pandas
 pip install plotnine
 ```
 
-The standalone [blast+](https://www.ncbi.nlm.nih.gov/books/NBK569861/) is also needed. Please download it from [NCBI](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/).
+The standalone [blast+](https://www.ncbi.nlm.nih.gov/books/NBK569861/) is also needed. Please download it from [NCBI](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/), and install it into your environment.
 ```
 tar zxvpf ncbi-blast-xxx-linux.tar.gz
 export PATH=$PATH:$HOME/ncbi-xxx/bin
