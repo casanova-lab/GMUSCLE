@@ -482,7 +482,7 @@ try:
         file_summary.write('time cost:\t' + str(TIME_COST) + ' seconds\n')
 
     else:
-        print('Zero genpotype identified, please try to: check the genome assembly, genomic region and fastq; '
+        print('Zero genotype identified, please try to: check the genome assembly, genomic region and fastq; '
               'and lower the read-count cutoff and the genotype proportion cutoff, even to zero.\n')
 
 except:
