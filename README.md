@@ -68,6 +68,8 @@ Parameter | Type | Description | Default
 *Notes:*
 - *if sample file and genome file are not in the same folder with GMUSCLE.py, include their path in the command*
 - *if paired-end, the fastq files have to be suffixed with _R1/R2*
+- *genotypes < 1% won't be shown in the plot, but will be available in the summary and the tables*
+- *indels that go beyond the given genomic region won't appear in the alignment file*
 
 ## Extended Utility
 Besides the multiplexed-sequencing ability of this protocol, GMUSCLE software alone is also versatile. GMUSCLE is able to analyze the sequencing data:
