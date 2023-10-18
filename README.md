@@ -79,7 +79,7 @@ Besides the multiplexed-sequencing ability of this protocol, GMUSCLE software al
 - from gene-edited products in other organisms, for which the users only need to provide the organism’s reference genome to run GMUSCLE.
 
 ## References
-- [*Zhang P, Yang R, Abel A, Casanova J-L.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
+- [*Zhang P, et al.* Genotyping MUltiplexed-Sequencing of CRISPR-Localized Editing (GMUSCLE): 
 an experimental and computational approach to analyze CRISPR-edited cells. The CRISPR Journal. (2023)](https://www.liebertpub.com/doi/10.1089/crispr.2023.0021)
 
 ## Contact
